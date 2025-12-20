@@ -28,11 +28,13 @@ export default function Sidebar() {
             }`}
           >
             <p
-              className={`flex align-middle gap-4 font-light text-[16px] ${
-                pathname == url ? "text-primary-foreground" : ""
+              className={`flex align-middle gap-4  text-[16px] ${
+                pathname == url
+                  ? "text-primary-foreground font-bold"
+                  : "font-light"
               }`}
             >
-              <Icon className={`${pathname == url ? "fill-primary" : ""}`} />
+              <Icon active={pathname == url} />
               {label}
             </p>
           </Link>

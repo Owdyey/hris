@@ -8,16 +8,17 @@ import JobsIcon from "@/components/icons/jobs-icon";
 import LeavesIcon from "@/components/icons/leaves-icon";
 import PayrollIcon from "@/components/icons/payroll-icon";
 import SettingsIcon from "@/components/icons/settings-icon";
-import { ComponentType, ReactNode, SVGProps } from "react";
+import { IconProps } from "@/types/props";
+import { ComponentType } from "react";
 
 export type NavLinkTypes = {
   url: string;
-  icon: ComponentType<SVGProps<SVGSVGElement>>;
+  icon: ComponentType<IconProps>;
   label: string;
 };
 
 export const navLinks: NavLinkTypes[] = [
-  { url: "/dashboard", icon: AppIcon, label: "Dashboard" },
+  { url: "/", icon: AppIcon, label: "Dashboard" },
   { url: "/employees", icon: EmployeesIcon, label: "All Employees" },
   { url: "/departments", icon: DepartmentIcon, label: "All Department" },
   { url: "/attendance", icon: CalendarIcon, label: "Attendance" },
