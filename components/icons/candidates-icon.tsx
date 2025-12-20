@@ -16,6 +16,7 @@ export default function CandidatesIcon({ active, ...props }: IconProps) {
       strokeLinecap="round"
       strokeLinejoin="round"
       className="lucide lucide-user-round-icon lucide-user-round"
+      {...props}
     >
       <circle cx="12" cy="8" r="5" />
       <path d="M20 21a8 8 0 0 0-16 0" />
