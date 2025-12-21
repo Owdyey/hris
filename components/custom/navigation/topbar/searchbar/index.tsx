@@ -8,7 +8,7 @@ function SearchBar() {
             <SearchIcon className="absolute left-3 top-1/2 h-5 w-5  -translate-y-1/2 text-gray-400" />
             <Input
                 type="search"
-                className="h-[40px] pl-10 placeholder:text-gray-300 bg-gray-400 border-2 border-gray-10"
+                className="h-10 pl-10 placeholder:text-gray-300 bg-gray-400 border-2 border-gray-10"
                 placeholder="Search"
             />
         </div>
