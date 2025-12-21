@@ -5,7 +5,7 @@ import { topBarHeaders } from "../topBarHeader";
 import SearchBar from "./searchbar";
 import NotificationIcon from "@/components/icons/notification-icon";
 import { Button } from "@/components/ui/button";
-import AccountPopover from "./account-popover";
+import AccountDropdown from "./account-dropdown";
 
 export default function Topbar() {
     const pathname: string = usePathname();
@@ -30,7 +30,7 @@ export default function Topbar() {
                 <Button className="bg-gray-10 hover:bg-gray-10" size="icon-lg">
                     <NotificationIcon />
                 </Button>
-                <AccountPopover />
+                <AccountDropdown />
             </div>
         </div>
     );

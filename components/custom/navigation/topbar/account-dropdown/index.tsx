@@ -10,7 +10,7 @@ import {
 } from "@/components/ui/dropdown-menu";
 import { DropdownMenuGroup } from "@radix-ui/react-dropdown-menu";
 
-export default function AccountPopover() {
+export default function AccountDropdown() {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger className="h-10 p-0 outline-none focus:ring-0 focus:ring-offset-0">
