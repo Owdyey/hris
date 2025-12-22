@@ -1,4 +1,6 @@
-export default function UserIcon({ ...props }) {
+import { IconProps } from "@/types/props";
+
+export default function UserIcon({ ...props }: IconProps) {
     return (
         <svg
             width="24"

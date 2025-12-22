@@ -1,4 +1,6 @@
-export default function AccountArrowUpIcon() {
+import { IconProps } from "@/types/props";
+
+export default function AccountArrowUpIcon({ ...props }: IconProps) {
     return (
         <svg
             width="20"

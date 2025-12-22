@@ -1,4 +1,6 @@
-export default function LogoutIcon({ ...props }) {
+import { IconProps } from "@/types/props";
+
+export default function LogoutIcon({ ...props }: IconProps) {
     return (
         <svg
             width="14"

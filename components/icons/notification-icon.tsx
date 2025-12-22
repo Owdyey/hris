@@ -1,4 +1,6 @@
-export default function NotificationIcon({ ...props }) {
+import { IconProps } from "@/types/props";
+
+export default function NotificationIcon({ ...props }: IconProps) {
     return (
         <svg
             width="24"

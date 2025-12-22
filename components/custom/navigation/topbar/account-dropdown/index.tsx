@@ -14,7 +14,7 @@ export default function AccountDropdown() {
     return (
         <DropdownMenu>
             <DropdownMenuTrigger className="h-10 p-0 outline-none focus:ring-0 focus:ring-offset-0">
-                <div className="bg-white border-2 border-gray-10 h-10 flex items-center pl-1 pr-1 gap-2">
+                <div className="bg-white border-2 border-gray-10 rounded-md h-10 flex items-center pl-1 pr-1 gap-2">
                     <div className="h-8 w-8 border-2 rounded-sm"></div>
                     <div className="flex flex-col items-start justify-center gap-0">
                         <p className="text-foreground text-[10px] font-bold">
