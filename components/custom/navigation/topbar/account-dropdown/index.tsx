@@ -1,7 +1,6 @@
 import AccountArrowUpIcon from "@/components/icons/account-dropdown-icon";
 import LogoutIcon from "@/components/icons/logout-icon";
 import UserIcon from "@/components/icons/user-icon";
-import { Button } from "@/components/ui/button";
 import {
     DropdownMenu,
     DropdownMenuContent,
